@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "MedicalApp",
-    "slug": "MedicalApp",
+    "name": "PayBill",
+    "slug": "PayBill",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [],
+      "package": "com.paybillglobal.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "react-native-video",
+      "react-native-localize"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9ec3909a-fcbf-4d74-8b4b-d60c420919e1"
+      }
+    },
+    "owner": "elilove"
   }
 }
